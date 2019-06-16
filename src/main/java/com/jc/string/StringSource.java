@@ -10,5 +10,25 @@ import java.util.Stack;
  */
 public class StringSource {
 
+    @Test
+    public void testCodePointAt() {
+        String str = "123";
+        System.out.println(str.codePointAt(1));
+    }
 
+    @Test
+    public void testReplace() {
+        String strA = "abc";
+        strA.replace("a", "x");
+    }
+
+    @Test
+    public void testJoin() {
+        System.out.println(String.join("-", "a", "b", "c"));
+    }
+
+    @Test
+    public void testTrim() {
+        System.out.println(' ' <= ' ');
+    }
 }

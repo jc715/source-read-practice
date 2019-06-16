@@ -1,12 +1,6 @@
 package com.jc.collection;
 
 import org.junit.Test;
-import sun.jvm.hotspot.utilities.Interval;
-
-import java.util.HashMap;
-import java.util.SortedMap;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 
 /**
  * @author JC.
